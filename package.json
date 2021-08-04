@@ -1,0 +1,21 @@
+{
+  "name": "myfirstportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dredeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyeryahn/Codecademy_Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyeryahn/Codecademy_Portfolio/issues"
+  },
+  "homepage": "http://hyeryahn.github.io/Codecademy_Portfolio"
+}
