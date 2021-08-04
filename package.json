@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/hyeryahn/Codecademy_Portfolio/issues"
   },
-  "homepage": "http://hyeryahn.github.io/Codecademy_Portfolio"
+  "homepage": "http://hyeryahn.github.io/Codecademy_Portfolio",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
