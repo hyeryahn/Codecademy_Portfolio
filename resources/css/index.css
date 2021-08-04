@@ -1,0 +1,242 @@
+body {
+    font-family: "Roboto",sans-serif;
+    border-top: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    margin: 50px 0;
+}
+
+.nav-wrapper{
+    display: flex;
+    position:absolute;
+    left: 400px;   
+    top: 30px;
+}
+
+#logo {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px 40px;
+    margin: 0px;
+    border-top-left-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    padding: 10px 20px;
+    margin: 0 20px;
+    transition: all 1s;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.intro-wrap {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#text-high {
+    z-index: -1;
+    width: 500px;
+    height: 30px;
+    background-color:powderblue;
+    opacity: 0.5;
+    position: relative;
+    top: -115px;
+    left: 470px;    
+}
+
+#explore {
+    margin-top: 70px;
+}
+
+.intro {
+    width: 600px;
+}
+
+.intro h1{
+    font-size: 60px;
+}
+
+.intro-img img {
+    width: 500px;
+    height: auto;
+    margin: 0 150px;
+}
+
+.dot1{
+    background-image: url("Resources/images/dot.png");
+    width: 50px;
+    height: 100px;
+}
+#talk {
+    position: relative;
+    left: -300px;    
+    bottom: -280px;
+}
+
+main, footer{
+    width: 1800px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-desc {
+    color: powderblue;
+}
+
+.headline {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.content {
+    width: 50%;
+}
+
+.content h2 {
+    font-size: 30px;
+}
+
+.content p {
+    margin-bottom: 80px;
+}
+
+.content-img .portrait {
+    width: 350px;
+}
+
+.content-img .landscape {
+    width: 400px;
+}
+
+#frog, #arch2 {
+    position: relative;
+    top: -80px;
+    left: -200px;
+}
+#room {
+    position: relative;
+    top: -100px;
+    right: -200px;
+}
+
+.num {
+    font-size: 50px;
+    color: lightgray;
+}
+
+.clients, #lovedBy {
+    background-color: powderblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients {
+    width: 100%;
+}
+
+.clients .head-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.client-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1300px;
+}
+
+.client-container img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 20px 50px;
+}
+
+.contact {
+    width: 1000px;
+    padding: 100px 0;
+}
+.contact .head-box {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: 1px solid lightgray;
+    padding: 20px 50px;
+    letter-spacing: 2px;
+    background-color: white;
+    margin-top: 20px;
+    transition: background-color 1s, color 1s;
+}
+
+button:hover{
+    background-color: gray;
+    color: white;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+.border {
+    border-top: 1px solid lightgray;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sns img {
+    width: 30px;
+    padding: 0 15px;
+    animation: none;
+}
+
+.sns img:hover {
+    animation:  0.2s wiggle;
+}
+
+@keyframes wiggle{
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(20deg); }
+    75% { transform: rotate(-20deg); }
+   100% { transform: rotate(0deg); }
+}

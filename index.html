@@ -6,106 +6,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Portfolio</title>
-    <link rel="stylesheet" href="css/index.css" type="text/css">
-    <script src="js/index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="Resources/css/index.css" type="text/css">
+    <script src="Resources/js/index.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <header>
-        <div class="nav-wrapper">
-            <div class="logo-container">
-                <span id="logo"></span>
+    <div class="all-wrapper">
+        <header>
+            <div class="nav-wrapper">
+                <div class="logo-container">
+                    <span id="logo">C. Smith</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#case">CASE STUDY</a></li>
+                        <li><a href="#blog">BLOG POST</a></li>
+                        <li><a href="#contact">CONTACT ME</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li><a>HOME</a></li>
-                    <li><a>CASE STUDY</a></li>
-                    <li><a>BLOG POST</a></li>
-                    <li><a>CONTACT ME</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="intro">
-            <h1>Hello!<br>I'm Chad Smith</h1>
-            <p>Service Design Director specializing in integrating Human Centered Design into Health and Human Services
-                programs.</p>
-            <p>Over the last 7 years, I gained meaningful experiences in diverse design maturity organizations driving
-                teams and clients through mixed approaches based on Design Thinking, Lean UX and Agile, while also
-                helping reform organizational cultures in modernizing existing and delivery new products.<br><br>For the
-                past 2 years, I directed Service Design responsibilities under my company Your Seat.</p>
-            <button id="explore">EXPLORE ME</button>
-        </div>
-        <div class="intro-img">
-            <img src="images/woman.jpg" alt="Me"/>
-            <button class="talk">LET'S TALK</button>
-        </div>
+            <div class="intro-wrap">
+                <div id="text-high"></div>
+                <div class="intro">
+                    <h1>Hello!<br>I'm Chad Smith</h1>
+                    <p>Service Design Director specializing in integrating Human Centered Design into Health and Human
+                        Services
+                        programs.</p>
+                    <p>Over the last 7 years, I gained meaningful experiences in diverse design maturity organizations
+                        driving
+                        teams and clients through mixed approaches based on Design Thinking, Lean UX and Agile, while
+                        also
+                        helping reform organizational cultures in modernizing existing and delivery new
+                        products.<br><br>For
+                        the
+                        past 2 years, I directed Service Design responsibilities under my company Your Seat.</p>
+                    <button id="explore">EXPLORE ME</button>
+                </div>
+                <div class="intro-img">
+                    <img src="Resources/images/woman.jpg" alt="Me" />
+                </div>
+                <div class="dot1">
+                </div>
+                <button id="talk">LET'S TALK</button>
+            </div>
+    </div>
     </header>
     <main>
-        <section class="study-case">
+        <section class="study-case border">
             <div class="head-box">
-                <span class="head-desc">LATEST WORK</span>
-                <h2 class="headline">My Case Studies</h2>
-            </div>
-            <div class="container left">
-                <div class="content-img">
+                <div><span class="head-desc">LATEST WORK</span>
+                    <h2 id="case" class="headline">My Case Studies</h2>
+                </div>
+                <div>
+                    <button>ALL CASE STUDIES</button>
+                </div>
 
+            </div>
+
+            <div class="container">
+                <div class="content-img">
+                    <img class="portrait" id="jungle" src="resources/images/jungle.jpg" alt="jungle" />
+                    <img class="landscape" id="frog" src="resources/images/frog.jpg" alt="frog" />
                 </div>
                 <div class="content">
                     <span class="num">01</span>
                     <h2>Travel Agency<br>Website Redesign</h2>
-                    <p>Over the last 7 years, I gained meaningful experiences in diverse design maturity organizations
-                        driving teams and clients through mixed approaches base on Design Thinking, Lean UX and Agile,
+                    <p>Over the last 7 years, I gained meaningful experiences in diverse design maturity
+                        organizations
+                        driving teams and clients through mixed approaches base on Design Thinking, Lean UX and
+                        Agile,
                         while also helping reform organizational</p>
-                    <button class="detail">DETAILS</button>
+                    <button>DETAILS</button>
                 </div>
             </div>
-            <div class="container right">
-                <div class="content-img">
+            <div class="container" >
 
-                </div>
                 <div class="content">
                     <span class="num">02</span>
                     <h2>Fashion &<br>Blog Website Design</h2>
-                    <p>Over the last 7 years, I gained meaningful experiences in diverse design maturity organizations
-                        driving teams and clients through mixed approaches base on Design Thinking, Lean UX and Agile,
+                    <p>Over the last 7 years, I gained meaningful experiences in diverse design maturity
+                        organizations
+                        driving teams and clients through mixed approaches base on Design Thinking, Lean UX and
+                        Agile,
                         while also helping reform organizational</p>
-                    <button class="detail">DETAILS</button>
+                    <button>DETAILS</button>
+                </div>
+                <div class="content-img">
+                    <img class="landscape" id="room" src="resources/images/room.jpg" alt="room" />
+                    <img class="portrait" id="terrace" src="resources/images/terrace.jpg" alt="terrace" />
+
                 </div>
             </div>
-            <div class="container left">
+            <div class="container">
                 <div class="content-img">
-
+                    <img class="portrait" id="arch1" src="resources/images/arch1.jpg" alt="arch1" />
+                    <img class="landscape" id="arch2" src="resources/images/arch2.jpg" alt="arch2" />
                 </div>
                 <div class="content">
                     <span class="num">03</span>
                     <h2>Minimal Agency<br>Client Project</h2>
-                    <p>Over the last 7 years, I gained meaningful experiences in diverse design maturity organizations
-                        driving teams and clients through mixed approaches base on Design Thinking, Lean UX and Agile,
+                    <p>Over the last 7 years, I gained meaningful experiences in diverse design maturity
+                        organizations
+                        driving teams and clients through mixed approaches base on Design Thinking, Lean UX and
+                        Agile,
                         while also helping reform organizational</p>
-                    <button class="detail">DETAILS</button>
+                    <button>DETAILS</button>
                 </div>
             </div>
-
-            <button>ALL CASE STUDIES</button>
         </section>
-        <section class="clients">
+        <section class="clients border" id="blog"   >
             <div class="head-box">
-                <span class="head-desc">LOVED BY</span>
+                <p class="head-desc" id="lovedBy">LOVED BY</p>
                 <h2 class="headline">Valuable Clients</h2>
-                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default<br>model
+                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default<br>model
                     text, and a search for uncover</p>
             </div>
             <div class="client-container">
-                <img src="images/frog.jpg" alt="frog"/>
-                <img src="images/jungle.jpg" alt="jungle"/>
-                <img src="images/palcae.jpg" alt="palcae"/>
-                <img src="images/room.jpg" alt="room"/>
-                <img src="images/terrace.jpg" alt="terrace"/>
-                <img src="images/turtle.jpg" alt="turtle"/>
+                <img src="resources/images/frog.jpg" alt="frog" />
+                <img src="resources/images/jungle.jpg" alt="jungle" />
+                <img src="resources/images/turtle.jpg" alt="turtle" />
+                <img src="resources/images/terrace.jpg" alt="terrace" />
+                <img src="resources/images/palace.jpg" alt="palcae" />
+                <img src="resources/images/room.jpg" alt="room" />
+                <img src="resources/images/arch1.jpg" alt="arch1" />
+                <img src="resources/images/arch2.jpg" alt="arch2" />
 
             </div>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact border">
             <div class="head-box">
                 <span class="head-desc">HAVE A PROJECTS?</span>
                 <h2 class="headline">Let's Work Together</h2>
@@ -117,17 +147,17 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="border">
         <div class="copy">
             @ 2020 Chad Smith - All rights reserved
         </div>
         <div class="sns">
-            <img src=""/>
-            <img src=""/>
-            <img src=""/>
+            <img src="https://cdn.icon-icons.com/icons2/2066/PNG/512/twitter_icon_125119.png" alt="twitter" />
+            <img src="https://cdn.icon-icons.com/icons2/2066/PNG/512/instagram_icon_125245.png" alt="insta" />
+            <img src="https://icons.iconarchive.com/icons/iconsmind/outline/256/Facebook-icon.png" alt="facebook" />
         </div>
     </footer>
-
+    </div>
 </body>
 
 </html>
